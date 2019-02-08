@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Kill Pad.ma
-//Last modified: Sun, Jan 27, 2019 01:54:23 PM
+//Last modified: Thu, Jan 31, 2019 07:30:36 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "DFD6AB3A-4BC4-D88D-5BBB-8796A9C92412";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.43149674389809389 3.0086693628883383 -13.682068323378322 ;
-	setAttr ".r" -type "double3" -9.9383527309116069 1619.7999999996159 0 ;
+	setAttr ".t" -type "double3" -0.061390339198823085 2.4555521126133915 -13.760630541973786 ;
+	setAttr ".r" -type "double3" -7.5383527310714467 1618.1999999992856 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5226BB7D-43CF-67AF-43B2-63B69EF3CFEB";
 	setAttr -k off ".v" no;
